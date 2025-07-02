@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Nosmai' => 'admin@nosmai.com' }
   s.platform         = :ios, '13.0'
 
-  s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/v1.0.0/nosmai.framework.zip' }
+  s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/1.0.1/nosmai.framework.zip' }
 
-  s.vendored_frameworks = 'Nosmai.framework'
+  s.vendored_frameworks = 'nosmai.framework'
 
   s.static_framework = true
   s.frameworks = 'OpenGLES', 'UIKit', 'QuartzCore', 'CoreVideo', 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'Metal', 'CoreML', 'Security'
