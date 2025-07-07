@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://cocoapods.org/pods/NosmaiCameraSDK'
   s.license          = { :type => 'Proprietary', :text => 'See LICENSE file' }
   s.author           = { 'Nosmai' => 'admin@nosmai.com' }
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '14.0'
 
   s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/1.0.6/nosmai.framework.zip' }
 
