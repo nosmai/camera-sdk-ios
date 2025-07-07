@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'Nosmai-Camera-SDK'
-  s.version          = '1.0.1'
+  s.name             = 'NosmaiCameraSDK'
+  s.version          = '1.0.6'
   s.summary          = 'iOS SDK for applying real-time camera filters with live preview.'
   s.description      = <<-DESC
     Nosmai is a closed-source iOS SDK that allows developers to apply real-time visual filters on a live camera feed.
@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
     To use the SDK, developers must register a project through the Nosmai portal and obtain a unique API key.
     The API key is used to initialize the camera view and enable filtering capabilities.
   DESC
-  s.homepage         = 'https://portal.camerasdk.nosmai.com/'
+  s.homepage = 'https://cocoapods.org/pods/NosmaiCameraSDK'
   s.license          = { :type => 'Proprietary', :text => 'See LICENSE file' }
   s.author           = { 'Nosmai' => 'admin@nosmai.com' }
   s.platform         = :ios, '13.0'
 
-  s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/1.0.1/nosmai.framework.zip' }
+  s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/1.0.6/nosmai.framework.zip' }
 
   s.vendored_frameworks = 'nosmai.framework'
 
