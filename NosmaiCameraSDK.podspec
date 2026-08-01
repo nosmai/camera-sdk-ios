@@ -1,25 +1,34 @@
 Pod::Spec.new do |s|
   s.name             = 'NosmaiCameraSDK'
-  s.version          = '2.0.4'
-  s.summary          = 'iOS SDK for applying real-time camera filters with live preview.'
+  s.version          = '3.0.0'
+  s.summary          = 'Real-time camera effects, beauty, AR, backgrounds, and recording for iOS.'
   s.description      = <<-DESC
-    Nosmai is a closed-source iOS SDK that allows developers to apply real-time visual filters on a live camera feed.
-    It enables a seamless and interactive user experience through dynamic overlays and effects.
-
-    To use the SDK, developers must register a project through the Nosmai portal and obtain a unique API key.
-    The API key is used to initialize the camera view and enable filtering capabilities.
+    Nosmai Camera SDK is a proprietary iOS framework for real-time camera
+    effects, built-in beauty and makeup, face reshape, background replacement,
+    recording, processed frame output, and local or cloud .nosmai packages.
+    A valid Nosmai license key and written authorization are required.
   DESC
-  s.homepage = 'https://cocoapods.org/pods/NosmaiCameraSDK'
+  s.homepage         = 'https://github.com/nosmai/camera-sdk-ios'
   s.license          = { :type => 'Proprietary', :text => 'See LICENSE file' }
   s.author           = { 'Nosmai' => 'admin@nosmai.com' }
-  s.platform         = :ios, '14.0'
+  s.platform         = :ios, '15.0'
+  s.swift_version    = '5.0'
 
-  s.source           = { :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/2.0.4/nosmai.framework.zip' }
+  s.source           = {
+    :http => 'https://github.com/nosmai/camera-sdk-ios/releases/download/v3.0.0/nosmai.framework.zip'
+  }
 
   s.vendored_frameworks = 'nosmai.framework'
+  s.requires_arc = true
+  s.frameworks = 'OpenGLES', 'UIKit', 'QuartzCore', 'CoreVideo',
+                 'CoreGraphics', 'CoreImage', 'AVFoundation', 'CoreMedia',
+                 'Metal', 'MetalKit', 'CoreML', 'Accelerate', 'Security'
+  s.libraries = 'z', 'c++'
 
-  s.static_framework = true
-  s.frameworks = 'OpenGLES', 'UIKit', 'QuartzCore', 'CoreVideo', 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'Metal', 'CoreML', 'Security'
-
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
 end

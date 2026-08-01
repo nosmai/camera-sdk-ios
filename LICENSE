@@ -1,21 +1,49 @@
-MIT License
+NOSMAI CAMERA SDK PROPRIETARY NOTICE
 
-Copyright (c) 2025 Nosmai
+Copyright (c) 2025-2026 Nosmai. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The Nosmai Camera SDK, including the iOS framework binary, Nosmai-authored
+software, protected models, resources, documentation, and related materials
+(collectively, the "SDK"), is proprietary software owned by Nosmai and its
+licensors.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Public availability of this repository or any release asset does not grant a
+license to use, copy, modify, distribute, sublicense, sell, or otherwise
+exploit the SDK.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Use of the SDK requires:
+
+1. a separate written commercial agreement or other written authorization
+   issued by Nosmai; and
+2. a valid Nosmai license key.
+
+Any rights granted to an authorized customer are limited to the scope, term,
+applications, platforms, and usage limits stated in that customer's agreement.
+Unless Nosmai expressly authorizes it in writing, no person or entity may:
+
+- modify, adapt, translate, or create derivative works of the SDK;
+- reverse engineer, decompile, disassemble, decrypt, or attempt to discover
+  source code, models, keys, protocols, or internal implementation details;
+- bypass, disable, interfere with, or circumvent licensing, authentication,
+  metering, encryption, or technical protection measures;
+- publish, redistribute, sublicense, sell, rent, lease, lend, transfer, or make
+  the standalone SDK or framework available to any third party;
+- remove or alter copyright, trademark, attribution, or proprietary notices;
+- use the SDK or its output to create, train, benchmark, or improve a competing
+  camera effects, augmented reality, beauty filter, or face processing SDK;
+- use the SDK outside the applications or use cases authorized by Nosmai.
+
+All rights not expressly granted in a separate written agreement are reserved
+by Nosmai. A breach of this notice or the applicable agreement automatically
+terminates any permission to use the SDK, without limiting other rights or
+remedies available to Nosmai.
+
+The SDK is provided only under the warranty, support, liability, payment,
+termination, and governing law terms stated in the applicable written
+commercial agreement. If this notice conflicts with that agreement, the
+agreement controls for the authorized customer.
+
+Third-party software included with the SDK is owned by its respective authors
+and is governed by its applicable third-party license terms. Those terms apply
+only to the relevant third-party components and do not grant rights to Nosmai's
+proprietary SDK code, models, services, trademarks, or other materials.
